@@ -1,4 +1,5 @@
 import CollaborativeRoom from '@/components/CollaborativeRoom'
+
 import { Editor } from '@/components/editor/Editor'
 import Header from '@/components/Header'
 import { getDocument } from '@/lib/actions/room.actions'
@@ -22,7 +23,9 @@ const Document = async ({params:{id}}:SearchParamProps) => {
     <main className=' flex w-full flex-col items-center'>
 <CollaborativeRoom
           roomId={id}
-          roomMetadata={room.roomMetadata} users={[]} currentUserType={'creator'}/>
+          roomMetadata={room.metadata} // Ensure this is passed correctly
+          users={[]} 
+          currentUserType={'creator'}/>
     </main>
   )
 }
