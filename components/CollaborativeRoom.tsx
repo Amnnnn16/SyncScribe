@@ -6,7 +6,6 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { Editor } from "./editor/Editor";
 import ActiveCollaborators from "./ActiveCollaborators";
 import { useEffect, useRef, useState } from "react";
-import { metadata } from "@/app/layout";
 import { Input } from "./ui/input";
 import { updateDocument } from "@/lib/actions/room.actions";
 import Image from "next/image";

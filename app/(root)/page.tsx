@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // import { Button } from '...'
 import AddDocumentBtn from '@/components/AddDocumentButton'
 import { DeleteModal } from '@/components/DeleteModal'
