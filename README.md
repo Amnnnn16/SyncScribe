@@ -15,4 +15,4 @@
 - **Backend**: Node.js
 - **Authentication**: Clerk
 - **Real-time Collaboration**: Liveblocks
-- **Styling**: Tailwind CSS
+- **Styling**: TailwindCSS
